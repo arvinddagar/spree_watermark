@@ -1,4 +1,4 @@
-Image.class_eval do
+Spree::Image.class_eval do
   has_attached_file(
     :attachment,
     :processors => [:thumbnail, :watermark],
