@@ -1,5 +1,4 @@
 require 'spree_core'
-require 'spree_watermark_hooks'
 require "paperclip_processors/watermark.rb"
 
 module SpreeWatermark
