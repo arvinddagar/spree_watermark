@@ -1,5 +1,3 @@
-require "paperclip_processors/watermark.rb"
-
 module SpreeWatermark
   class Engine < Rails::Engine
   	engine_name 'spree_watermark'
